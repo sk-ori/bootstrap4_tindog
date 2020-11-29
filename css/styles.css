@@ -1,0 +1,177 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  padding-left: 2rem;
+}
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: "Montserrat";
+  line-height: 1.78;
+  font-size: 3.4rem;
+  font-weight: 900;
+}
+h2{
+  font-weight: bold;
+  font-size: 2.56rem;
+  line-height: 2;
+
+}
+h3{
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 3rem 10rem 2.2rem;
+}
+/* ................................navbar............................... */
+.navbar-brand{
+  font-size: 2rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+.nav-item{
+  font-family: "Ubuntu";
+  padding: 0 1.2rem;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.download-btn{
+  margin: 1.5rem 1.4rem 1.5rem 0;
+}
+.image-div{
+  text-align: center;
+}
+.title-image{
+  width: 55%;
+  transform: rotate(25deg);
+  margin: 1.3rem ;
+  position: absolute;
+  right: 6.8rem;
+}
+/* ..................................features..................................... */
+#features{
+  padding: 7rem 10rem;
+  background-color:#fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 4%;
+}
+.f-icon{
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+.f-icon:hover{
+  color: #ff4c68;
+}
+/* .........................testimonials section............................. */
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+.carousel-item{
+  padding: 3rem 12rem 0;
+}
+.testimonial-img{
+  width: 10rem;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+#press{
+  background-color: #ef8172;
+  padding: 2.2rem 2.5rem;
+  text-align: center;
+}
+.press-img{
+  width: 8rem;
+  margin: 3rem 4rem;
+}
+.big-press{
+  width: 6rem;
+}
+/* ............................pricing section............................... */
+#pricing{
+  padding: 1.6rem 4rem 4rem 4rem;
+  text-align: center;
+}
+.pricing-card{
+  padding: 1.5rem 2.8rem;
+}
+
+/* ..............................call to action.............................. */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 17rem;
+}
+.cta-font{
+  font-family: Ubuntu;
+  font-size: 3rem;
+}
+
+/* ...................................footer.................................. */
+
+#footer{
+  text-align: center;
+  padding: 3rem 5rem;
+}
+.footer-icon{
+  margin: 0 1.3rem 1rem;
+}
+
+/* ...............................resposiveness.............................. */
+
+@media (max-width:1137px){
+  #title{
+      text-align: center;
+      padding: 0;
+  }
+  .navbar{
+    padding: 0 0 1.5rem;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  .container-fluid{
+    padding: 1rem 1rem;
+  }
+  .carousel-item{
+    padding: 1.3rem 4rem 0;
+  }
+  .press-img{
+    width: 5rem;
+    margin: 0;
+  }
+  .testimonial-img{
+    width: 5rem;
+    padding: .6rem;
+  }
+  #cta{
+    text-align: center;
+    padding: 3rem 1.5rem;
+  }
+
+}
+/* @media (min-width: 992px) and (max-width: 1160px){
+  .title-image{
+    width: 80%;
+  }
+  #title{
+    text-align: left;
+  }
+} */
