@@ -1,2 +1,2 @@
-# sk'stindog
-a front end website using bootstrap4
+# sk's tindog
+a mock web page to demonstrate Css using bootstrap4
